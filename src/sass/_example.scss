@@ -1,0 +1,36 @@
+.js-place-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country {
+  display: flex;
+  padding: 20px;
+}
+.country-name {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.country-body {
+  margin-right: 40px;
+}
+
+.country-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.country-text-item,
+.country-text {
+  font-weight: 400;
+}
+.input {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid;
+}
