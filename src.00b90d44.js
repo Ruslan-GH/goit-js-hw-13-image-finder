@@ -13,4 +13,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"../templates/photo-card.hbs":"Dymv","./search-service":"UBo7"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/apiService.js");
 },{"./sass/main.scss":"clu1","./js/apiService.js":"eQwa"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.00b90d44.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.00b90d44.js.map
