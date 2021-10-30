@@ -1,2 +1,2 @@
 import './sass/main.scss';
-import './js/fetchCountries.js'
+import './js/apiService.js'

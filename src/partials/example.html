@@ -4,17 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <title>Document</title>
 </head>
 <body>
-<div class="js-place-data">
-  <input type="text" class="input" name="query" />
-  
-  <div class="js-countries-container"></div>
-  
-  <div class="js-country-container"></div>
-</div>
+<div class="container">
 
+  <form class="search-form" id="search-form">
+    <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+    <button type="submit" class="btn-search">Search</button>
+  </form>
+  
+
+
+  <ul class="gallery">
+    <!-- Список <li> с карточками изображений -->
+  </ul>
+  
+  <button type="button" class="btn-load" data-action="Load-more">
+    <span class="label">Load more</span>
+  
+  </button>
+
+</div>
+  
 
 </body>
 </html>
